@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Analysis - FutureScope</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">FutureScope</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="#" class="btn-login">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Analysis Content -->
+    <section class="analysis">
+        <div class="container">
+            <div class="analysis-header">
+                <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+                <h1>College Choice Analysis</h1>
+                <span class="analysis-status">75% Complete</span>
+            </div>
+
+            <!-- Decision Overview -->
+            <div class="analysis-overview">
+                <div class="card">
+                    <h3>Your Decision</h3>
+                    <p>"Which college should I attend for my Computer Science degree?"</p>
+                    
+                    <div class="criteria-tags">
+                        <span class="tag">Cost</span>
+                        <span class="tag">Academic Quality</span>
+                        <span class="tag">Location</span>
+                        <span class="tag">Career Prospects</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Options Comparison -->
+            <div class="options-comparison">
+                <h2>Compare Your Options</h2>
+                
+                <div class="comparison-grid">
+                    <div class="option-card winner">
+                        <div class="option-header">
+                            <h3>State University</h3>
+                            <div class="score-badge">85/100</div>
+                        </div>
+                        
+                        <div class="criteria-scores">
+                            <div class="criteria-item">
+                                <span class="criteria-name">Cost</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="score-value">90</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Academic Quality</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="score-value">80</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Location</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="score-value">85</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Career Prospects</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="score-value">85</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Very affordable tuition</li>
+                                    <li>Strong CS program</li>
+                                    <li>Close to home</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Large class sizes</li>
+                                    <li>Less prestigious</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-card">
+                        <div class="option-header">
+                            <h3>Private College</h3>
+                            <div class="score-badge">72/100</div>
+                        </div>
+                        
+                        <div class="criteria-scores">
+                            <div class="criteria-item">
+                                <span class="criteria-name">Cost</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="score-value">40</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Academic Quality</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="score-value">95</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Location</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 70%"></div>
+                                </div>
+                                <span class="score-value">70</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Career Prospects</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="score-value">90</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Excellent reputation</li>
+                                    <li>Small class sizes</li>
+                                    <li>Great alumni network</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Very expensive</li>
+                                    <li>Far from home</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-card">
+                        <div class="option-header">
+                            <h3>Community College</h3>
+                            <div class="score-badge">78/100</div>
+                        </div>
+                        
+                        <div class="criteria-scores">
+                            <div class="criteria-item">
+                                <span class="criteria-name">Cost</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="score-value">100</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Academic Quality</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="score-value">65</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Location</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="score-value">90</span>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-name">Career Prospects</span>
+                                <div class="score-bar">
+                                    <div class="score-fill" style="width: 60%"></div>
+                                </div>
+                                <span class="score-value">60</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Very cheap</li>
+                                    <li>Close to home</li>
+                                    <li>Transfer options</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Limited 4-year programs</li>
+                                    <li>Less networking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="analysis-actions">
+                <button class="btn btn-secondary">Save Analysis</button>
+                <button class="btn btn-primary">Complete Decision</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FutureScope. Make better decisions for your future.</p>
+        </div>
+    </footer>
+</body>
+</html>
